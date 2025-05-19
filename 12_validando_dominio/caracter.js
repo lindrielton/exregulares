@@ -1,6 +1,6 @@
 
 
-const dominio = /[?www.]\w+\.com|.com.br/;
+const dominio = /[?www.]\w+\.com.br|.com/;
 
 console.log(dominio.test("www.cursoemvideo.com"));
 console.log(dominio.test("www.onebiecode.com"));
